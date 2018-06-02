@@ -2,7 +2,6 @@ const request = require('request');
 const fId = '249266862485821';
 const accessToken = 'EAADGtBZAndj4BAPt2l7vf16RixnF5xiIR7sAoUvR1usLfRUZC5ewIaoCGDn9D3uOl1sxPnFqEAEO1ZAKUWKrxkGgqQVNlZBSa4brzas4vrscTTWqS6AFDXZAbBtoEP1ByOw8HcWyZATjZCrmM82OaxUyNZBKPQQR132kyTZC4xkShsAZDZD';
 
-// type 6
 exports.sendCards =function(recipientId,data) {
     let messageData = {
         "recipient":{
@@ -21,7 +20,6 @@ exports.sendCards =function(recipientId,data) {
     callSendAPI(messageData);
 };
 
-// type 7
 exports.sendList =function(recipientId,data) {
     let messageData = {
         "recipient":{
